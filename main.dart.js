@@ -40677,7 +40677,7 @@ A.k1.prototype={
 v0(a,b){return this.ant(a,b)},
 ant(a,b){var s=0,r=A.K(t.H),q=1,p=[],o=this,n,m,l,k,j,i,h,g,f,e
 var $async$v0=A.G(function(c,d){if(c===1){p.push(d)
-s=q}while(true)switch(s){case 0:f=A.dx("http://192.168.11.246:5001/api/login")
+s=q}while(true)switch(s){case 0:f=A.dx("https://https://flasksocket-production.up.railway.app/api/login")
 q=3
 i=t.N
 h=A.a5(["Content-Type","application/json"],i,i)
@@ -40721,7 +40721,7 @@ return A.J($async$v0,r)},
 AQ(a,b,c){return this.apu(a,b,c)},
 apu(a,b,c){var s=0,r=A.K(t.H),q=1,p=[],o,n,m,l,k,j,i
 var $async$AQ=A.G(function(d,e){if(d===1){p.push(e)
-s=q}while(true)switch(s){case 0:j=A.dx("http://192.168.11.246:5001/api/register")
+s=q}while(true)switch(s){case 0:j=A.dx("https://https://flasksocket-production.up.railway.app/api/register")
 q=3
 m=t.N
 l=A.a5(["Content-Type","application/json"],m,m)
@@ -40832,7 +40832,7 @@ return A.J($async$n7,r)},
 yM(a,b,c,d,e){return this.air(a,b,c,d,e)},
 air(a,b,c,d,e){var s=0,r=A.K(t.H),q=1,p=[],o,n,m,l,k,j,i
 var $async$yM=A.G(function(f,g){if(f===1){p.push(g)
-s=q}while(true)switch(s){case 0:j=A.dx("http://192.168.11.246:5001/api/checkout/pesanan")
+s=q}while(true)switch(s){case 0:j=A.dx("https://https://flasksocket-production.up.railway.app/api/checkout/pesanan")
 q=3
 m=t.N
 l=A.a5(["Content-Type","application/json","Authorization","Bearer "+a],m,m)
@@ -40882,7 +40882,7 @@ var $async$zl=A.G(function(b,c){if(b===1){p.push(c)
 s=q}while(true)switch(s){case 0:n.c=!0
 n.a7()
 q=3
-m=A.dx("http://192.168.11.246:5001/api/transaksi")
+m=A.dx("https://https://flasksocket-production.up.railway.app/api/transaksi")
 h=t.N
 s=6
 return A.O(A.asx(m,A.a5(["Content-Type","application/json","Authorization","Bearer "+a],h,h)),$async$zl)
@@ -40927,7 +40927,7 @@ var $async$zo=A.G(function(a,b){if(a===1){p.push(b)
 s=q}while(true)switch(s){case 0:n.c=!0
 n.a7()
 q=3
-m=A.dx("http://192.168.11.246:5001/api/warung")
+m=A.dx("https://https://flasksocket-production.up.railway.app/api/warung")
 s=6
 return A.O(A.asx(m,null),$async$zo)
 case 6:l=b
@@ -40963,7 +40963,7 @@ var $async$zm=A.G(function(b,c){if(b===1){p.push(c)
 s=q}while(true)switch(s){case 0:n.c=!0
 n.a7()
 q=3
-m=A.dx("http://192.168.11.246:5001/api/warung/"+a+"/produk")
+m=A.dx("https://https://flasksocket-production.up.railway.app/api/warung/"+a+"/produk")
 s=6
 return A.O(A.asx(m,null),$async$zm)
 case 6:l=c
@@ -41009,7 +41009,7 @@ s=1
 break}n.b=!0
 n.a7()
 p=4
-m=A.dx("http://192.168.11.246:5001/api/profile")
+m=A.dx("https://https://flasksocket-production.up.railway.app/api/profile")
 h=t.N
 s=7
 return A.O(A.asx(m,A.a5(["Authorization","Bearer "+A.j(a.b),"Content-Type","application/json"],h,h)),$async$zn)
@@ -41044,7 +41044,7 @@ s=1
 break}m.b=!0
 m.a7()
 p=4
-l=A.dx("http://192.168.11.246:5001/api/profile")
+l=A.dx("https://https://flasksocket-production.up.railway.app/api/profile")
 g=t.N
 g=A.a5(["Authorization","Bearer "+b,"Content-Type","application/json"],g,g)
 s=7
@@ -41082,7 +41082,7 @@ var $async$vP=A.G(function(a5,a6){if(a5===1){p.push(a6)
 s=q}while(true)switch(s){case 0:n.b=!0
 n.a7()
 q=3
-m=A.dx("http://192.168.11.246:5001/api/upload_avatar")
+m=A.dx("https://https://flasksocket-production.up.railway.app/api/upload_avatar")
 d=$.aFM().anw(a3,null)
 l=d==null?"image/jpeg":d
 c=A.aKB("POST",m)
